@@ -1,5 +1,4 @@
 import { useState, useRef } from 'react';
-import '../styles/globals.css';
 
 function fileToBase64(file) {
   return new Promise((resolve, reject) => {
